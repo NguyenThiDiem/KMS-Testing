@@ -20,8 +20,7 @@ public class BT1_Register {
 
 	@BeforeClass
 	public void beforeClass() {
-		System.setProperty("webdriver.gecko.driver",
-				"C://Users/admin/Desktop/diem/Testing-KMS/Selenium/geckodriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\admin\\Desktop\\diem\\Testing-KMS\\Selenium\\chromedriver.exe");
 
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
